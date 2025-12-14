@@ -87,7 +87,7 @@ export default function Contact() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-10 max-w-3xl mx-auto"
+          className="mt-10 max-w-5xl mx-auto"
         >
           <div className="bg-white dark:bg-[#1a1a1a] rounded-2xl p-8 border border-gray-200 dark:border-gray-800">
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
